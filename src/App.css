@@ -7,50 +7,42 @@
   pointer-events: none;
   width: 264px;
   height: 251.5px;
-  /* center in the middle */
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 8%; 
-  border-radius: 100px; 
+  margin-top: 8%;
+  border-radius: 100px;
+}
+
+.name_title, .paragraph {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .name_title {
   width: 188px;
   height: 32px;
-  left: 625px;
-  top: 367px;
-  font-family: 'JetBrains Mono';
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   color: #000000;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .paragraph {
   width: 750px;
   height: 250px;
-  left: 353px;
-  top: 439px;
-  font-family: 'JetBrains Mono';
-  font-style: normal;
   font-weight: 400;
   font-size: 19px;
   line-height: 25px;
-  text-align: center;
   color: #000000;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 2%;
 }
 
 .logos {
-  /* width: 25%; */
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -58,36 +50,32 @@
   align-items: center;
 }
 
+.gh-logo, .lin-logo, .tw-logo {
+  margin-right: 20px;
+}
+
 .gh-logo {
   width: 35px;
-  margin-right: 20px; 
 }
 
 .lin-logo {
   width: 34px;
-  margin-right: 20px; 
 }
 
 .tw-logo {
   width: 38px;
-  margin-right: 20px; 
 }
 
 .scholar-logo {
-  zoom: 0.75; 
+  zoom: 0.75;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 768px) {
+  .name_title, .paragraph {
+    width: 90%;
+  }
+  
+  .paragraph {
+    height: auto;
+  }
 }
