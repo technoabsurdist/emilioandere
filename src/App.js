@@ -10,7 +10,13 @@ function App() {
     <>
       <img src={logo} className="App-logo" alt="logo" />
       <p class="name_title">Emilio Andere</p>
-      <p class="paragraph">My name is Emilio Andere, I’m from Guadalajara, Mexico. I'm currently studying Computer Science and Mathematics at UChicago. I focus on full-stack engineering. Database, back-end, or front-end. I previously published under Professor Zhao, and presented that project at NeurIPS ’22. At Impossible Finance I built and launched their whole rewards page, front-end in typescript, and the “learn-and-earn” back-end in Golang. I am constantly adding projects to my github during hackathons, summers, or in my free time in between classes.</p>
+      <p class="paragraph">
+          I'm 20 years old, originally from Guadalajara, Mexico. I'm currently studying Computer Science and Mathematics at UChicago. 
+          I focus on full-stack engineering. Database, back-end, or front-end. I previously published under Professor Zhao, and presented that project at NeurIPS '22. 
+          At Impossible Finance I built and launched their whole rewards page, front-end in typescript, and the “learn-and-earn” back-end in Golang. I am constantly 
+          adding projects to my github during hackathons, summers, or in my free time in between classes. 
+          I'm also a big fan of beautiful design, architecture, music, consciousness, and transhumanism, within others. <br /> 
+      </p>
       <div className="logos">
         <a className="gh-logo" href="https://github.com/technoabsurdist" target="_blank" rel="noreferrer">
           <img src={gh_logo} alt="logo" />
