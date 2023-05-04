@@ -13,9 +13,10 @@ function App() {
       <p class="paragraph">
           I'm 20 years old, originally from Guadalajara, Mexico. I'm currently studying Computer Science and Mathematics at UChicago. 
           I focus on full-stack engineering. Database, back-end, or front-end. I previously published under Professor Zhao, and presented that project at NeurIPS '22. 
+          I currently work at <a href="spherepay.co">sphere</a> as a software engineer intern.
           At Impossible Finance I built and launched their whole rewards page, front-end in typescript, and the “learn-and-earn” back-end in Golang. I am constantly 
           adding projects to my github during hackathons, summers, or in my free time in between classes. 
-          I'm also a big fan of beautiful design, architecture, music, consciousness, and transhumanism, within others. <br /> 
+          I'm also a big fan of the future, beautiful design, music, consciousness, within many others. <br /> 
       </p>
       <div className="logos">
         <a className="gh-logo" href="https://github.com/technoabsurdist" target="_blank" rel="noreferrer">
