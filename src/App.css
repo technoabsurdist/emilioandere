@@ -44,6 +44,7 @@
   line-height: 25px;
   color: #000000;
   margin-top: 2%;
+  margin-bottom: 1%;
 }
 
 .logos {
@@ -56,6 +57,10 @@
 
 .gh-logo, .lin-logo, .tw-logo {
   margin-right: 20px;
+}
+
+.writing-logo {
+  width: 37px;
 }
 
 .gh-logo {
