@@ -4,7 +4,6 @@ import gh_logo from "./github_logo.svg"
 import lin_logo from "./linkedin_logo.svg"
 import tw_logo from "./twitter_logo.svg"
 import scholar_logo from "./google_logo.svg"
-import writing_logo from "./writing.svg"
 
 function App() {
   return (
